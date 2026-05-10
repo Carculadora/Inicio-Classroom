@@ -6,9 +6,7 @@
     <title>Panel Educativo con Fondo Animado</title>
     <style>
         :root {
-            --uber-color: #ffffff; /* Ajustado para resaltar sobre negro */
-            --stt-color: #4285f4;
-            --vandrek-color: #34a853;
+            --main-color: #ffffff;
             --bg-color: #000000;
         }
 
@@ -37,12 +35,12 @@
             z-index: 1;
             width: 90%;
             max-width: 650px;
-            background: rgba(255, 255, 255, 0.95); /* Semi-transparente para ver el fondo */
+            background: rgba(255, 255, 255, 0.95);
             border-radius: 20px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
             padding: 30px;
             margin: 40px auto;
-            backdrop-filter: blur(5px); /* Efecto de cristal esmerilado */
+            backdrop-filter: blur(5px);
         }
 
         h1 {
@@ -98,7 +96,7 @@
         .link-item:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-            border-color: #000;
+            border-left: 6px solid #000;
         }
 
         .icon {
@@ -125,10 +123,6 @@
             font-size: 12px;
             margin-top: 2px;
         }
-
-        .uber-style:hover { border-left: 6px solid #000; }
-        .stt-style:hover { border-left: 6px solid var(--stt-color); }
-        .vandrek-style:hover { border-left: 6px solid var(--vandrek-color); }
     </style>
 </head>
 <body>
@@ -137,66 +131,36 @@
 
     <div class="main-container">
         <h1>Portal de Recursos</h1>
-        <p class="desc">Acceso centralizado a todas las plataformas educativas</p>
+        <p class="desc">Acceso centralizado a plataformas</p>
 
-        <div class="section-header">Uber Series (Nicher.cl)</div>
-        <div class="links-container">
-            <a href="https://uber-education.nicher.cl/" target="_blank" class="link-item uber-style">
-                <span class="icon">🎓</span>
-                <div class="info"><span class="title">Uber Education</span><span class="url-sub">uber-education.nicher.cl</span></div>
-            </a>
-            <a href="https://uber-map.nicher.cl/" target="_blank" class="link-item uber-style">
-                <span class="icon">🗺️</span>
-                <div class="info"><span class="title">Uber Map</span><span class="url-sub">uber-map.nicher.cl</span></div>
-            </a>
-            <a href="https://uber-math.nicher.cl/" target="_blank" class="link-item uber-style">
-                <span class="icon">📐</span>
-                <div class="info"><span class="title">Uber Math</span><span class="url-sub">uber-math.nicher.cl</span></div>
-            </a>
-            <a href="https://uber-reads.nicher.cl/" target="_blank" class="link-item uber-style">
-                <span class="icon">📖</span>
-                <div class="info"><span class="title">Uber Reads</span><span class="url-sub">uber-reads.nicher.cl</span></div>
-            </a>
-            <a href="https://uber-test.nicher.cl/" target="_blank" class="link-item uber-style">
-                <span class="icon">📝</span>
-                <div class="info"><span class="title">Uber Test</span><span class="url-sub">uber-test.nicher.cl</span></div>
-            </a>
-        </div>
+        <div class="section-header">Links Disponibles</div>
 
-        <div class="section-header">STT Education</div>
         <div class="links-container">
-            <a href="https://best-education.sametimetomorrow.net/" target="_blank" class="link-item stt-style">
-                <span class="icon">🏆</span>
-                <div class="info"><span class="title">Best Education</span><span class="url-sub">best-education.sametimetomorrow.net</span></div>
+
+            <a href="https://carculadora.github.io/carculadora./" target="_blank" class="link-item">
+                <span class="icon">🧮</span>
+                <div class="info">
+                    <span class="title">Carculadora GitHub</span>
+                    <span class="url-sub">carculadora.github.io</span>
+                </div>
             </a>
-            <a href="https://clean-education.sametimetomorrow.net/" target="_blank" class="link-item stt-style">
-                <span class="icon">🧼</span>
-                <div class="info"><span class="title">Clean Education</span><span class="url-sub">clean-education.sametimetomorrow.net</span></div>
-            </a>
-            <a href="https://math-education.sametimetomorrow.net/" target="_blank" class="link-item stt-style">
-                <span class="icon">➕</span>
-                <div class="info"><span class="title">Math Education</span><span class="url-sub">math-education.sametimetomorrow.net</span></div>
-            </a>
-            <a href="https://quick-education.sametimetomorrow.net/" target="_blank" class="link-item stt-style">
+
+            <a href="https://carculadora-7in4.vercel.app/" target="_blank" class="link-item">
                 <span class="icon">⚡</span>
-                <div class="info"><span class="title">Quick Education</span><span class="url-sub">quick-education.sametimetomorrow.net</span></div>
+                <div class="info">
+                    <span class="title">Carculadora Vercel</span>
+                    <span class="url-sub">carculadora-7in4.vercel.app</span>
+                </div>
             </a>
-            <a href="https://sharp-education.sametimetomorrow.net/" target="_blank" class="link-item stt-style">
-                <span class="icon">🎯</span>
-                <div class="info"><span class="title">Sharp Education</span><span class="url-sub">sharp-education.sametimetomorrow.net</span></div>
-            </a>
-        </div>
 
-        <div class="section-header">Vandrekalenderen</div>
-        <div class="links-container">
-            <a href="https://learn-school-education.vandrekalenderen.dk/" target="_blank" class="link-item vandrek-style">
-                <span class="icon">🏫</span>
-                <div class="info"><span class="title">Learn School Education</span><span class="url-sub">learn-school-education.vandrekalenderen.dk</span></div>
+            <a href="https://6a00609b05855c20f2690866--neon-puffpuff-5caefe.netlify.app/" target="_blank" class="link-item">
+                <span class="icon">🌐</span>
+                <div class="info">
+                    <span class="title">Carculadora Netlify</span>
+                    <span class="url-sub">neon-puffpuff-5caefe.netlify.app</span>
+                </div>
             </a>
-            <a href="https://woah.vandrekalenderen.dk/" target="_blank" class="link-item vandrek-style">
-                <span class="icon">✨</span>
-                <div class="info"><span class="title">Woah Education</span><span class="url-sub">woah.vandrekalenderen.dk</span></div>
-            </a>
+
         </div>
     </div>
 
@@ -206,8 +170,8 @@
 
         let width, height;
         let lineas = [];
-        const numeroLineas = 25; 
-        const puntosPorLinea = 80; 
+        const numeroLineas = 25;
+        const puntosPorLinea = 80;
         let tiempo = 0;
 
         function ajustarLienzo() {
@@ -232,17 +196,20 @@
 
         function animar() {
             ctx.clearRect(0, 0, width, height);
-            ctx.strokeStyle = 'rgba(255, 255, 255, 0.3)'; // Líneas sutiles
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.3)';
             ctx.lineWidth = 1.5;
 
             for (let i = 0; i < lineas.length; i++) {
                 ctx.beginPath();
+
                 for (let j = 0; j < lineas[i].length; j++) {
                     const punto = lineas[i][j];
 
-                    // Efecto de flujo topográfico
-                    const desplazamientoX = Math.sin(tiempo + (i * 0.2) + (j * 0.1)) * 15;
-                    const desplazamientoY = Math.cos(tiempo * 0.5 + (i * 0.5) + (j * 0.15)) * 20;
+                    const desplazamientoX =
+                        Math.sin(tiempo + (i * 0.2) + (j * 0.1)) * 15;
+
+                    const desplazamientoY =
+                        Math.cos(tiempo * 0.5 + (i * 0.5) + (j * 0.15)) * 20;
 
                     const dibujarX = punto.x + desplazamientoX;
                     const dibujarY = punto.y + desplazamientoY;
@@ -253,16 +220,19 @@
                         ctx.lineTo(dibujarX, dibujarY);
                     }
                 }
+
                 ctx.stroke();
             }
 
-            tiempo += 0.01; 
+            tiempo += 0.01;
             requestAnimationFrame(animar);
         }
 
         window.addEventListener('resize', ajustarLienzo);
+
         ajustarLienzo();
         animar();
     </script>
+
 </body>
 </html>
